@@ -4113,8 +4113,9 @@ h2.title--small {
 
 .p-btn {
     cursor: pointer;
-    width: 100%;
+    width: 85%;
     height: 100%;
+    margin-left: 20px;
     background: rgba(34, 34, 34, 0.84);
     border: 1px solid #ebebeb;
     -webkit-transition: all 0.6s ease;
@@ -7068,6 +7069,16 @@ input[type=number] {
     .copyrightmob {
         font-size: 9px;
     }
+
+    .p-btn {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .p-btn img {
+        transform: scale(0.8);
+    }
+
 
     /* Start About Us Page */
 
